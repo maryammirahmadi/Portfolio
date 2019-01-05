@@ -1,0 +1,161 @@
+/*****BASE STYLES*****/
+
+body {
+  font-family: 'lato', sans-serif;
+  color: #fffff;
+}
+
+main {
+  background: url('../img/black_sand_contrast.png');
+  background-size: cover;
+}
+
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:black;
+}
+
+a:active {
+  text-decoration: underline;
+  color:black;
+}
+
+/*****GRID*****/
+.full-width{
+  width:100%;
+  margin:0 auto;
+}
+
+.half-width{
+  width:50%;
+  float:left;
+}
+
+.third-width{
+  width:33.33%;
+  float:left;
+}
+
+
+/*****HEADER*****/
+
+header {
+  height:400px;
+  background: url('../img/black_sands.png');
+  background-size: cover;
+}
+
+header h1 {
+  font-family:'Lustria', serif;
+  font-size: 65px;
+  color: white;
+  padding:180px 0 0 0;
+  line-height:0;
+  text-align:center;
+}
+
+header h2, nav a {
+  font-family:'Lustria', serif;
+  font-size:20px;
+  color:white;
+  text-transform: lowercase;
+  text-decoration:none;
+  text-align: center;
+  font-weight:300;
+}
+
+nav {
+  text-align:center;
+  padding-top:70px;
+}
+
+
+
+/*****SELECTED WORKS*****/
+#works #comc, #jubilee, #rogue {
+  display:block;
+  margin-top:80px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#works h3 {
+  font-family:"Lustria", serif;
+  text-align:center;
+  text-transform:lowercase;
+  font-weight:100;
+}
+
+
+/*****ABOUT*****/
+#about #bio {
+  margin-top: 180px;
+  margin-left:300px;
+  margin-bottom:50px;
+}
+
+#about p {
+  margin-top:200px;
+  width:75%;
+  text-align:justify;
+  color:white;
+  font-size: 16px;
+}
+
+#about h3{
+  font-family:'Lustria', serif;
+  font-size: 35px;
+  font-weight:bold;
+  color:grey;
+  line-height: 10px;
+}
+
+#about h4{
+  text-align:left;
+  color:white;
+}
+
+#about a {
+  text-decoration:none;
+  color:white;
+  margin:none;
+}
+
+/*****CONTACT*****/
+
+
+#contact{
+  clear:both;
+}
+
+#contact a {
+  text-decoration: none;
+  color:white;
+}
+
+#contact ul {
+  margin-left:38.7%;
+}
+
+#contact ul li {
+  display:inline-block;
+}
+
+/*****FOOTER*****/
+
+footer {
+  clear:both;
+  text-align:center;
+  color:white;
+  padding-bottom:50px;
+}
